@@ -2,7 +2,7 @@ name: Generate Terminal GIF
 
 on:
   schedule:
-    # Roda todo dia as 6h da manha (UTC)
+    # Runs daily at 6am (UTC)
     - cron: '0 6 * * *'
   workflow_dispatch: # Permite rodar manualmente
   push:
