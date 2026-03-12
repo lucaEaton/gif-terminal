@@ -18,7 +18,7 @@ import requests
 # - Copy the token and add it to .env
 # ============================================
 
-USERNAME = "dbuzatto"  # <- Your GitHub username
+USERNAME = "lucaEaton"  # <- Your GitHub username
 
 # Function to fetch real number of repos
 def get_total_repos(username):
@@ -122,13 +122,11 @@ t.gen_text("\x1b[96m=== Tech Stack ===\x1b[0m", row_num=3)
 t.clone_frame(3)
 
 skills = [
-    ("\x1b[94mCloud:\x1b[0m       ", "AWS, GCP, OCI, Cloudflare"),
-    ("\x1b[94mDevOps:\x1b[0m      ", "Terraform, Kubernetes, Docker, Git"),
-    ("\x1b[94mCI/CD:\x1b[0m       ", "GitLab, GitHub Actions"),
-    ("\x1b[94mMonitoring:\x1b[0m  ", "Grafana, Prometheus, Jaeger, Loki"),
-    ("\x1b[94mTools:\x1b[0m       ", "Postman, RabbitMQ, MongoDB"),
-    ("\x1b[94mOS:\x1b[0m          ", "macOS, Debian"),
-    ("\x1b[94mLanguages:\x1b[0m   ", "Java, Python"),
+    ("\x1b[94mCloud/DevOps:\x1b[0m", "Docker, AWS (ECR, EC2), Vercel, Nginx"),
+    ("\x1b[94mFrameworks:\x1b[0m  ", "FastAPI, Librosa, React, Tailwind CSS, Vite, PyTorch, scikit-learn, pandas, NumPy"),
+    ("\x1b[94mTools:\x1b[0m       ", "Git, IntelliJ IDEA, PyCharm, CLion"),
+    ("\x1b[94mOS:\x1b[0m          ", "macOS, Linux"),
+    ("\x1b[94mLanguages:\x1b[0m   ", "C++, Python, Java, TypeScript, JavaScript, HTML/CSS, SQL, Lua, R"),
 ]
 
 for i, (label, value) in enumerate(skills):
